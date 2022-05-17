@@ -1,22 +1,35 @@
-﻿using static System.Console;
-using NS_A;
+﻿using System;
+using System.Collections.Generic;
+using static System.Console;
+using Account;
+// using System.List
+
 class Program
 {
     static void Main(string[] args)
     {
-        Account acc_1 = new Account("minh", 12);
+        // Anonymous types
+        List<User> listUsers = new List<User>() {
+            new User(){Name = "John", Age = 12},
+            new User(){Name = "Trinh", Age = 13},
+            new User(){Name = "Chi", Age = 14},
+            new User(){Name = "Tram", Age = 15},
 
-        const int MAX_USER = 2;
-        User[] users = new User[MAX_USER];
-        users[0] = new User("Minh", 1);
-        users[1] = new User("Trinh", 10);
-
-        int i = 0;
-        foreach (User user in users)
-        {
-            if (user == null) continue;
-            Console.Write($"User: {++i}" + "\n" + $"Name: {user.name}" + "\n" + $"Age: {user.age}" + "\n");
-            if (i != MAX_USER - 1) Console.WriteLine("---------");
         };
+
+        var usersSelected = from user in listUsers
+                            where user.Age >= 12
+                            select user;
+
+        foreach (var user in usersSelected)
+        {
+            WriteLine(user.Name, user.Age);
+
+        }
+
+        // Dynamic types
+        dynamic obj = new Object();
+        obj.usres = listUsers;
+        obj = "";
     }
 }
