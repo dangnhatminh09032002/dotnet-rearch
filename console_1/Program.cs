@@ -3,13 +3,23 @@ using System.Collections.Generic;
 using static System.Console;
 using Account;
 // using System.List
-
-class Program
+namespace Global
 {
-    static void Main(string[] args)
+    delegate void ShowMessage(string message);
+
+    class Program
     {
-        int? number;
-        number = null;
-        WriteLine("number: " + number);
+        static public void Info(string message)
+        {
+            WriteLine(message);
+        }
+        static void Main(string[] args)
+        {
+            string message = "HELLO";
+            ShowMessage show = null;
+            show = Info;
+            show.Invoke("Show");
+            Info(message);
+        }
     }
 }
