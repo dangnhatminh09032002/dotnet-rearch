@@ -5,32 +5,22 @@ using Account;
 // using System.List
 namespace Global
 {
-    delegate void ShowMessage(string message);
-
     class Program
     {
-        static public void InfoSuccess(string message)
+        static double FuncTest(int arg1, string arg2)
         {
-            ForegroundColor = ConsoleColor.Green;
-            WriteLine(message);
-            ResetColor();
-        }
-
-        static public void InfoWarning(string message)
-        {
-            ForegroundColor = ConsoleColor.Red;
-            WriteLine(message);
-            ResetColor();
+            WriteLine(arg1);
+            return 1;
         }
         static void Main(string[] args)
         {
-            string message = "HELLO";
-            ShowMessage show;
-            show = InfoSuccess;
-            show += InfoWarning;
-            show += InfoWarning;
-            show += InfoSuccess;
-            show?.Invoke(message);
+            // Action and Func : delegate - gereric
+            Action action_1; // ~ delegate void action_1();
+            Action<string, int> action_2; // ~ delegate void action_2(string arg1, int arg2);
+            Func<int, string, double> func_1; // ~ delegate double func_1(int arg1, string arg2);
+
+            func_1 = FuncTest;
+            func_1(12, "hello");
         }
     }
 }
