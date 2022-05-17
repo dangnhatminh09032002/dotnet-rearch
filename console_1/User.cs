@@ -1,25 +1,36 @@
-namespace HelloWorld
+namespace NS_A
 {
-    class User : IDisposable
+    static class SayHello
     {
-        public string name { get; }
-        public int age { get; }
-        public User(string name, int age)
+        partial class Employee
+        {
+            public string Name { get; set; }
+            public Employee() { }
+        }
+
+
+        public static void sayHello()
+        {
+            Console.WriteLine("Hello");
+        }
+    }
+    class User
+    {
+        public string name { get; set; }
+        public int age { get; set; }
+        public User(string name = "", int age = 0)
         {
             if (age < 0) throw new ArgumentException("Age must be greater than 0");
             this.age = age;
             this.name = name;
         }
-        ~User()
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("User deleted");
-            Console.ResetColor();
-        }
+    }
 
-        public void Dispose()
+    class Account : User
+    {
+        public Account(string name = "", int age = 0) : base(name, age)
         {
-            Console.WriteLine("--- User deleted");
+
         }
     }
 }
