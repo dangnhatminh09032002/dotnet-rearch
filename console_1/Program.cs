@@ -5,22 +5,67 @@ using Account;
 // using System.List
 namespace Global
 {
+    enum USER_KEY
+    {
+        Name,
+        Age
+    };
+    delegate double Sum(double x, double y);
+
     class Program
     {
-        static double FuncTest(int arg1, string arg2)
-        {
-            WriteLine(arg1);
-            return 1;
-        }
         static void Main(string[] args)
         {
-            // Action and Func : delegate - gereric
-            Action action_1; // ~ delegate void action_1();
-            Action<string, int> action_2; // ~ delegate void action_2(string arg1, int arg2);
-            Func<int, string, double> func_1; // ~ delegate double func_1(int arg1, string arg2);
+            var func_1 = (double a, double b) =>
+            {
+                double sum = a + b;
+                return sum;
+            };
+            WriteLine(func_1(1, 2)); // Output 3
 
-            func_1 = FuncTest;
-            func_1(12, "hello");
+            Sum sum;
+            sum = (double a, double b) =>
+            {
+                double sum = a + b;
+                return sum;
+            };
+            WriteLine(sum?.Invoke(5, 1)); // Output 6
+
+            Func<double, double, double> sum_1;
+            sum_1 = (double a, double b) =>
+            {
+                double sum = a + b;
+                return sum;
+            };
+            WriteLine(sum_1?.Invoke(4, 3)); // Output 7
+
+            Dictionary<USER_KEY, string>[] users = {
+                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Minh" }, { USER_KEY.Age, "12" } },
+                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Hung" }, { USER_KEY.Age, "12" } },
+                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Son" }, { USER_KEY.Age, "12" } },
+                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Chi" }, { USER_KEY.Age, "12" } },
+                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Trinh" }, { USER_KEY.Age, "12" } },
+                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Tram" }, { USER_KEY.Age, "12" } },
+                                                };
+            foreach (Dictionary<USER_KEY, string> user in users)
+            {
+                WriteLine("-----------");
+                user.ToList().ForEach((KeyValuePair<USER_KEY, string> detail) =>
+                {
+                    WriteLine($"{detail.Key}: {detail.Value}");
+                });
+            };
+
+            // KeyValuePair<USER_KEY, string>[] users = {
+            //  new KeyValuePair<USER_KEY, string>(USER_KEY.Name, "minh"),
+            //  new KeyValuePair<USER_KEY, string>(USER_KEY.Name, "trinh"),
+            //  new KeyValuePair<USER_KEY, string>(USER_KEY.Name, "chi")
+            // };
+            // foreach (KeyValuePair<USER_KEY, string> user in users) { WriteLine($"{user.Key}: {user.Value}"); };
+            // users.ToList().ForEach((KeyValuePair<USER_KEY, string> user) =>
+            //                 {
+            //                     WriteLine($"{user.Key}: {user.Value}");
+            //                 });
         }
     }
 }
