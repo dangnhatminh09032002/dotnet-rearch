@@ -1,71 +1,54 @@
 ﻿using System;
-using System.Collections.Generic;
-using static System.Console;
-using Account;
-// using System.List
-namespace Global
+class Program
 {
-    enum USER_KEY
-    {
-        Name,
-        Age
-    };
-    delegate double Sum(double x, double y);
+    /* 
+        publisher -> class - phat su kien
+        subsriber -> class - nhan su kien
+    */
 
-    class Program
+    public delegate void InputNumberEvent(int x);
+    // Publisher
+    class UserInput
     {
-        static void Main(string[] args)
+        public InputNumberEvent inputNumberEvent { set; get; }
+        public void Input()
         {
-            var func_1 = (double a, double b) =>
+            do
             {
-                double sum = a + b;
-                return sum;
-            };
-            WriteLine(func_1(1, 2)); // Output 3
-
-            Sum sum;
-            sum = (double a, double b) =>
-            {
-                double sum = a + b;
-                return sum;
-            };
-            WriteLine(sum?.Invoke(5, 1)); // Output 6
-
-            Func<double, double, double> sum_1;
-            sum_1 = (double a, double b) =>
-            {
-                double sum = a + b;
-                return sum;
-            };
-            WriteLine(sum_1?.Invoke(4, 3)); // Output 7
-
-            Dictionary<USER_KEY, string>[] users = {
-                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Minh" }, { USER_KEY.Age, "12" } },
-                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Hung" }, { USER_KEY.Age, "12" } },
-                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Son" }, { USER_KEY.Age, "12" } },
-                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Chi" }, { USER_KEY.Age, "12" } },
-                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Trinh" }, { USER_KEY.Age, "12" } },
-                                                    new Dictionary<USER_KEY, string>() { { USER_KEY.Name, "Tram" }, { USER_KEY.Age, "12" } },
-                                                };
-            foreach (Dictionary<USER_KEY, string> user in users)
-            {
-                WriteLine("-----------");
-                user.ToList().ForEach((KeyValuePair<USER_KEY, string> detail) =>
+                Console.Write("Input Number: ");
+                string s = Console.ReadLine();
+                try
                 {
-                    WriteLine($"{detail.Key}: {detail.Value}");
-                });
-            };
-
-            // KeyValuePair<USER_KEY, string>[] users = {
-            //  new KeyValuePair<USER_KEY, string>(USER_KEY.Name, "minh"),
-            //  new KeyValuePair<USER_KEY, string>(USER_KEY.Name, "trinh"),
-            //  new KeyValuePair<USER_KEY, string>(USER_KEY.Name, "chi")
-            // };
-            // foreach (KeyValuePair<USER_KEY, string> user in users) { WriteLine($"{user.Key}: {user.Value}"); };
-            // users.ToList().ForEach((KeyValuePair<USER_KEY, string> user) =>
-            //                 {
-            //                     WriteLine($"{user.Key}: {user.Value}");
-            //                 });
+                    int i = Int32.Parse(s);
+                    inputNumberEvent?.Invoke(i);
+                }
+                catch (Exception ex) { }
+            } while (true);
         }
+    }
+
+    class MyEvent
+    {
+        public void Square(int x)
+        {
+            Console.WriteLine("Square: " + x * x);
+        }
+
+        public void SubEvent(UserInput input, InputNumberEvent callback)
+        {
+            input.inputNumberEvent = callback;
+        }
+    }
+    public static void Main(string[] args)
+    {
+        UserInput userInput = new UserInput();
+
+        MyEvent myEvent = new MyEvent();
+        myEvent.SubEvent(userInput, void (int x) =>
+        {
+            Console.WriteLine("Matchin");
+        });
+
+        userInput.Input();
     }
 }
