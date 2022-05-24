@@ -1,52 +1,99 @@
 ﻿using System;
 using System.Text;
+using System.Linq;
+
 namespace CS_Extensions
 {
     class Program
     {
-        // // Work with DriveInfo: Thong tin cua o dia
-        // public static void Main(string[] args)
-        // {
-        //     DriveInfo drive = new DriveInfo("C");
-        //     Console.WriteLine($"Drive: {drive.Name}");
-        //     Console.WriteLine($"Drive type: {drive.DriveType}");
-        //     Console.WriteLine($"Label: {drive.VolumeLabel}");
-        //     Console.WriteLine($"Format: {drive.DriveFormat}");
-        // }
+        class Persion
+        {
+            private static int _createdCount = 0;
+            private static List<Dictionary<string, dynamic>> _store = new List<Dictionary<string, dynamic>>();
+            private int _id = _createdCount++;
+            private string _name = "";
+            private int _age = 0;
+            public int Id => _id;
+            public string Name
+            {
+                set { _name = value; SaveToStore(); }
+                get => _name;
+            }
+            public int Age
+            {
+                set { _age = value; SaveToStore(); }
+                get => _age;
+            }
+            public Persion(string name, int age)
+            {
+                _name = name;
+                _age = age;
+                SaveToStore();
+            }
 
-        //
+
+            public void SaveToStore()
+            {
+                Dictionary<string, dynamic> newPersion = new Dictionary<string, dynamic>();
+                newPersion.Add("id", _id);
+                newPersion.Add("name", _name);
+                newPersion.Add("age", _age);
+                try
+                {
+                    _store[_id] = newPersion;
+                }
+                catch (Exception e) { _store.Add(newPersion); };
+            }
+
+            public static void SaveToFile(FileStream stream)
+            {
+                try
+                {
+                    stream.Write(Encoding.UTF8.GetBytes(""));
+                    string str = "";
+                    str += $"Count: {_createdCount}\n";
+                    foreach (var items in _store)
+                    {
+                        str += "---------------\n";
+                        foreach (KeyValuePair<string, dynamic> kvp in items)
+                        {
+                            str += $"{kvp.Key} - {kvp.Value}\n";
+                        }
+                    };
+                    stream.Write(Encoding.UTF8.GetBytes(str));
+                }
+                catch (Exception ex)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Write file faild");
+                    Console.ResetColor();
+                }
+
+            }
+
+            public static void PrintStore()
+            {
+                foreach (var items in _store)
+                {
+                    Console.WriteLine($"-------------");
+                    foreach (KeyValuePair<string, dynamic> kvp in items)
+                    {
+                        Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+                    }
+                };
+            }
+        }
+
         public static void Main(string[] args)
         {
-            // Window: c:\a\b\c
-            // Max and linux: a/b/c
-            // Console.WriteLine(Path.DirectorySeparatorChar);
-
-            // string path = Path.Combine("a", "b", "c"); // tu dong noi chuoi cho phu hop OS => a/b/c or a\b\c
-            // Console.WriteLine(Directory.GetCurrentDirectory()); // Get current folder path
-            // ~ Path.GetFullPath("dangnhatminh.cs") // Thuoc tinh nay tu dong noi voi folder hien tai
-
-            // Create file
-            // string pathToCreate = Path.Combine(Directory.GetCurrentDirectory(), "dangnhatminh.cs");
-            // string pathToCreate = Path.GetFullPath("dangnhatminh.txt");
-            // FileStream file = File.Create(pathToCreate);
-
-            // Write file
-            // string str = "this file is created";
-            // File.WriteAllText("dangnhatminh.txt", str);
-
-            // FileStream
-            string path = Path.GetFullPath("dangnhatminh.txt");
+            Persion minh = new Persion("minh", 12);
+            Persion tring = new Persion("tring", 12);
+            Persion chi = new Persion("chi", 21);
+            string path = Path.GetFullPath("store.txt");
             using FileStream stream = new FileStream(path, FileMode.OpenOrCreate);
-
-            // string -> bytes
-            string str = "this file is created ---- ";
-            byte[] buffer_str = Encoding.UTF8.GetBytes(str);
-
-            // int, double, ... -> bytes
-            int number = 12;
-            byte[] buffer_num = BitConverter.GetBytes(number);
-
-            stream.Write(buffer_str);
+            Persion.SaveToFile(stream);
+            chi.Name = "This is chi";
+            Persion.SaveToFile(stream);
         }
     }
 }
