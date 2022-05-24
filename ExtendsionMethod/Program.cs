@@ -1,57 +1,52 @@
-﻿using ExtensionMethods;
-using System.Linq;
-
+﻿using System;
+using System.Text;
 namespace CS_Extensions
 {
-    class Number
-    {
-        private object _value;
-        public decimal Value => decimal.Parse(_value.ToString());
-
-        public Number(object value)
-        {
-            bool isNumber = value.ToString().All(char.IsDigit);
-            if (isNumber)
-            {
-                _value = value;
-            }
-            else
-            {
-                throw new ArgumentException("Argument is not a number");
-            }
-        }
-
-        // Operatores
-        public static decimal operator +(Number a, Number b)
-        {
-            return a.Value + b.Value;
-        }
-
-        // Indexer
-        public dynamic this[string str]
-        {
-            get
-            {
-                switch (str)
-                {
-                    case "Value":
-                        return _value;
-                    default:
-                        throw new ArgumentException($"Argument [{str}] does not exist");
-                }
-            }
-        }
-    }
-
     class Program
     {
+        // // Work with DriveInfo: Thong tin cua o dia
+        // public static void Main(string[] args)
+        // {
+        //     DriveInfo drive = new DriveInfo("C");
+        //     Console.WriteLine($"Drive: {drive.Name}");
+        //     Console.WriteLine($"Drive type: {drive.DriveType}");
+        //     Console.WriteLine($"Label: {drive.VolumeLabel}");
+        //     Console.WriteLine($"Format: {drive.DriveFormat}");
+        // }
+
+        //
         public static void Main(string[] args)
         {
-            Number num_1 = new Number("12");
-            Number num_2 = new Number("15");
-            Console.WriteLine(num_2["Value"]);
-            decimal num_3 = num_1 + num_2;
-            Console.WriteLine("Number: " + num_3.ToString());
+            // Window: c:\a\b\c
+            // Max and linux: a/b/c
+            // Console.WriteLine(Path.DirectorySeparatorChar);
+
+            // string path = Path.Combine("a", "b", "c"); // tu dong noi chuoi cho phu hop OS => a/b/c or a\b\c
+            // Console.WriteLine(Directory.GetCurrentDirectory()); // Get current folder path
+            // ~ Path.GetFullPath("dangnhatminh.cs") // Thuoc tinh nay tu dong noi voi folder hien tai
+
+            // Create file
+            // string pathToCreate = Path.Combine(Directory.GetCurrentDirectory(), "dangnhatminh.cs");
+            // string pathToCreate = Path.GetFullPath("dangnhatminh.txt");
+            // FileStream file = File.Create(pathToCreate);
+
+            // Write file
+            // string str = "this file is created";
+            // File.WriteAllText("dangnhatminh.txt", str);
+
+            // FileStream
+            string path = Path.GetFullPath("dangnhatminh.txt");
+            using FileStream stream = new FileStream(path, FileMode.OpenOrCreate);
+
+            // string -> bytes
+            string str = "this file is created ---- ";
+            byte[] buffer_str = Encoding.UTF8.GetBytes(str);
+
+            // int, double, ... -> bytes
+            int number = 12;
+            byte[] buffer_num = BitConverter.GetBytes(number);
+
+            stream.Write(buffer_str);
         }
     }
 }
