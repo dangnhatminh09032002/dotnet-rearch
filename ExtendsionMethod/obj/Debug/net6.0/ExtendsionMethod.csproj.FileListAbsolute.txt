@@ -1,0 +1,15 @@
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\bin\Debug\net6.0\ExtendsionMethod.exe
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\bin\Debug\net6.0\ExtendsionMethod.deps.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\bin\Debug\net6.0\ExtendsionMethod.runtimeconfig.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\bin\Debug\net6.0\ExtendsionMethod.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\bin\Debug\net6.0\ExtendsionMethod.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.csproj.AssemblyReference.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.AssemblyInfoInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.AssemblyInfo.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.csproj.CoreCompileInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\refint\ExtendsionMethod.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.genruntimeconfig.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ref\ExtendsionMethod.dll
