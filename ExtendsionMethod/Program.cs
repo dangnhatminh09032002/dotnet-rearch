@@ -49,7 +49,7 @@ namespace CS_Extensions
         {
             Number num_1 = new Number("12");
             Number num_2 = new Number("15");
-            Console.WriteLine(num_2["Values"]);
+            Console.WriteLine(num_2["Value"]);
             decimal num_3 = num_1 + num_2;
             Console.WriteLine("Number: " + num_3.ToString());
         }
