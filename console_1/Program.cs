@@ -10,7 +10,7 @@ class Program
     // Publisher
     class UserInput
     {
-        public InputNumberEvent inputNumberEvent { set; get; }
+        public event InputNumberEvent inputNumberEvent; // Phuong thuc nay khong the bi gan lai chi co the them sua xoa
         public void Input()
         {
             do
@@ -25,29 +25,28 @@ class Program
                 catch (Exception ex) { }
             } while (true);
         }
+
+        public void SubEvent(InputNumberEvent callback)
+        {
+            inputNumberEvent += callback;
+        }
     }
 
     class MyEvent
     {
-        public void Square(int x)
+        public static void SubEvent(UserInput input, InputNumberEvent callback)
         {
-            Console.WriteLine("Square: " + x * x);
-        }
-
-        public void SubEvent(UserInput input, InputNumberEvent callback)
-        {
-            input.inputNumberEvent = callback;
+            input.inputNumberEvent += callback;
         }
     }
     public static void Main(string[] args)
     {
         UserInput userInput = new UserInput();
+        userInput.SubEvent(void (int x) => Console.WriteLine($"Binh phuong cua {x} la: " + x * x));
+        userInput.SubEvent(void (int x) => Console.WriteLine($"Gap doi cua {x} la: " + x * x));
 
-        MyEvent myEvent = new MyEvent();
-        myEvent.SubEvent(userInput, void (int x) =>
-        {
-            Console.WriteLine("Matchin");
-        });
+        // MyEvent.SubEvent(userInput, void (int x) => Console.WriteLine($"Binh phuong cua {x} la: " + x * x));
+        // MyEvent.SubEvent(userInput, void (int x) => Console.WriteLine($"Gap doi cua {x} la: " + x * x));
 
         userInput.Input();
     }
