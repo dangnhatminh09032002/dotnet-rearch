@@ -1,27 +1,25 @@
 ﻿using System;
-
-class DataInputs : EventArgs
-{
-    public int Data { set; get; }
-    public DataInputs(int x)
-    {
-        Data = x;
-    }
-}
-
 class Program
 {
     /* 
         publisher -> class - phat su kien
         subsriber -> class - nhan su kien
     */
-    public delegate void InputNumberEvent(object? sender, DataInputs args);
+    class DataInputs : EventArgs
+    {
+        public int Data { set; get; }
+        public DataInputs(int x)
+        {
+            Data = x;
+        }
+    }
+    public delegate void InputNumberEvent(int x);
     // Publisher
     class UserInput
     {
         // public event InputNumberEvent inputNumberEvent; // Phuong thuc nay khong the bi gan lai chi co the them sua xoa
 
-        public event InputNumberEvent inputNumberEvent; // ~ Deleget void KIEU(object? sender, EventArgs args)
+        public event EventHandler inputNumberEvent; // ~ Deleget void KIEU(object? sender, EventArgs args)
 
         public void Input()
         {
@@ -38,7 +36,7 @@ class Program
             } while (true);
         }
 
-        public void SubEvent(InputNumberEvent callback)
+        public void SubEvent(EventHandler callback)
         {
             inputNumberEvent += callback;
         }
@@ -54,8 +52,9 @@ class Program
     public static void Main(string[] args)
     {
         UserInput userInput = new UserInput();
-        userInput.SubEvent(void (object? sender, DataInputs data) =>
+        userInput.SubEvent(void (object? sender, EventArgs e) =>
         {
+            DataInputs data = (DataInputs)e;
             Console.WriteLine($"Binh phuong cua {data.Data} la: " + data.Data * data.Data);
         });
 
