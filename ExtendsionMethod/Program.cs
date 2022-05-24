@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Linq;
+using System.IO;
 
 namespace CS_Extensions
 {
@@ -45,22 +46,32 @@ namespace CS_Extensions
                 catch (Exception e) { _store.Add(newPersion); };
             }
 
-            public static void SaveToFile(FileStream stream)
+            public static void SaveToFile(Stream stream)
             {
                 try
                 {
-                    stream.Write(Encoding.UTF8.GetBytes(""));
-                    string str = "";
-                    str += $"Count: {_createdCount}\n";
+                    stream.Write(Encoding.UTF8.GetBytes(""), 0, 0);
+                    string str = new string("");
+                    str += "______________[ History ]______________\n";
+                    str += $"| Count: {_createdCount}\n";
+                    str += $"| Date: {DateTime.Now.ToString("dddd, dd MMMM yyyy hh:mm:ss tt")}\n";
+
+                    str += $"|\n";
+                    str += $"| -- LIST PERSION CREATED --\n";
+                    int i = 0;
                     foreach (var items in _store)
                     {
-                        str += "---------------\n";
+                        if (i != 0) str += "| ---------------\n";
                         foreach (KeyValuePair<string, dynamic> kvp in items)
                         {
-                            str += $"{kvp.Key} - {kvp.Value}\n";
+                            str += $"| {kvp.Key}: {kvp.Value}\n";
                         }
+                        i++;
                     };
-                    stream.Write(Encoding.UTF8.GetBytes(str));
+                    str += "|______________________________________\n";
+
+                    byte[] buffer = Encoding.UTF8.GetBytes(str);
+                    stream.Write(buffer);
                 }
                 catch (Exception ex)
                 {
@@ -71,6 +82,14 @@ namespace CS_Extensions
 
             }
 
+            public static void LoadFile(Stream stream)
+
+            {
+                byte[] bufferID = new byte[128];
+                stream.Read(bufferID, 0, 128);
+                Console.WriteLine("id : " + BitConverter.ToString(bufferID));
+                Console.WriteLine("id : " + stream.Read(bufferID, 0, 128));
+            }
             public static void PrintStore()
             {
                 foreach (var items in _store)
@@ -89,11 +108,12 @@ namespace CS_Extensions
             Persion minh = new Persion("minh", 12);
             Persion tring = new Persion("tring", 12);
             Persion chi = new Persion("chi", 21);
-            string path = Path.GetFullPath("store.txt");
-            using FileStream stream = new FileStream(path, FileMode.OpenOrCreate);
+            string path = Path.GetFullPath("store.dat");
+            using FileStream stream = new FileStream(path, FileMode.OpenOrCreate); // => use "using"
             Persion.SaveToFile(stream);
-            chi.Name = "This is chi";
+            chi.Name = "Linh Chi";
             Persion.SaveToFile(stream);
+            Persion.LoadFile(stream);
         }
     }
 }
