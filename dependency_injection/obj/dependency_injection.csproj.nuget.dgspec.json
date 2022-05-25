@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj": {}
+    "D:\\Code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj": {
+    "D:\\Code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
+        "projectUniqueName": "D:\\Code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
         "projectName": "dependency_injection",
-        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
-        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\obj\\",
+        "projectPath": "D:\\Code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
+        "packagesPath": "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\dotnet-rearch\\dependency_injection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DANGNHATMINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[6.0.0, )"
             }

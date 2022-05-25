@@ -16,3 +16,21 @@ C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.csproj.CopyComplete
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.exe
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.deps.json
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.runtimeconfig.json
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.pdb
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.csproj.AssemblyReference.cache
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.AssemblyInfoInputs.cache
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.AssemblyInfo.cs
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.csproj.CoreCompileInputs.cache
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.csproj.CopyComplete
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.dll
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\refint\dependency_injection.dll
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.pdb
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.genruntimeconfig.cache
+D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\ref\dependency_injection.dll

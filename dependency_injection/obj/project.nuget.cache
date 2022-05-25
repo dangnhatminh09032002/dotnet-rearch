@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mJ0D1QG9BzJ8xAwEC+B6YQYr+QK4TYBHIAXbfkhJL9NcvMbbCc6eDKMW3iEAwBs8g1yIbAeuFbZUtwcf6UUksw==",
+  "dgSpecHash": "5UR7itA68fv52FQY5En0DFFtcy1wQ6s506FRkXyt6UEBNoAfNjV4lpBSzDlNRojONajeV2cSZdbFilRFgDPCqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
+  "projectFilePath": "D:\\Code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dangn\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\dangn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\dangn\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
