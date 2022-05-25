@@ -1,0 +1,15 @@
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.csproj.AssemblyReference.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.AssemblyInfoInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.AssemblyInfo.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.csproj.CoreCompileInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.exe
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.deps.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.runtimeconfig.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\dependency_injection.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\refint\dependency_injection.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.genruntimeconfig.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\ref\dependency_injection.dll
