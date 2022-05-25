@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\type_atrr.csproj": {}
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\type_atrr.csproj": {
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\type_atrr.csproj",
-        "projectName": "type_atrr",
-        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\type_atrr.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
+        "projectName": "dependency_injection",
+        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\dependency_injection.csproj",
         "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\obj\\",
+        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\dependency_injection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
