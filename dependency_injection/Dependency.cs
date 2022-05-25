@@ -1,54 +1,54 @@
-namespace Minh.DependencyInjection
-{
-    namespace DirectDependency
-    {
-        class Class_C
-        {
-            private string _message;
-            public Class_C(string message) => _message = message;
-            public void ViewMessage()
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(_message);
-                Console.ResetColor();
-            }
-        }
+// namespace Minh.DependencyInjection
+// {
+//     namespace DirectDependency
+//     {
+//         class Class_C
+//         {
+//             private string _message;
+//             public Class_C(string message) => _message = message;
+//             public void ViewMessage()
+//             {
+//                 Console.ForegroundColor = ConsoleColor.Red;
+//                 Console.WriteLine(_message);
+//                 Console.ResetColor();
+//             }
+//         }
 
-        class Class_B
-        {
-            private Class_C _classC;
-            public Class_B(Class_C class_C) => _classC = class_C;
-            public void ViewMessage()
-            {
-                _classC.ViewMessage();
-            }
-        }
+//         class Class_B
+//         {
+//             private Class_C _classC;
+//             public Class_B(Class_C class_C) => _classC = class_C;
+//             public void ViewMessage()
+//             {
+//                 _classC.ViewMessage();
+//             }
+//         }
 
-        class Class_A
-        {
-            private Class_B _classB;
-            public Class_A(Class_B class_B) => _classB = class_B;
-            public void ViewMessage()
-            {
-                _classB.ViewMessage();
-            }
-        }
+//         class Class_A
+//         {
+//             private Class_B _classB;
+//             public Class_A(Class_B class_B) => _classB = class_B;
+//             public void ViewMessage()
+//             {
+//                 _classB.ViewMessage();
+//             }
+//         }
 
-        public static class DirectDependency
-        {
-            public static void Start()
-            {
-                string message = "This is module direct dependency";
+//         public static class DirectDependency
+//         {
+//             public static void Start()
+//             {
+//                 string message = "This is module direct dependency";
 
-                Class_C instanceC = new Class_C(message);
-                Class_B instanceB = new Class_B(instanceC);
-                Class_A instanceA = new Class_A(instanceB);
+//                 Class_C instanceC = new Class_C(message);
+//                 Class_B instanceB = new Class_B(instanceC);
+//                 Class_A instanceA = new Class_A(instanceB);
 
-                instanceA.ViewMessage();
-            }
-        }
-    }
-}
+//                 instanceA.ViewMessage();
+//             }
+//         }
+//     }
+// }
 
 // Inverted Dependency
 namespace Minh.DependencyInjection
@@ -57,51 +57,59 @@ namespace Minh.DependencyInjection
     {
         public interface IClassC
         {
-            public void ActionC();
+            public void Action();
         }
 
         public interface IClassB
         {
-            public void ActionB();
+            public void Action();
         }
 
+        public interface IClassA { }
 
-        public class Class_C : IClassC
+
+        public class ClassC : IClassC
         {
-            public void ActionC()
+            public void Action()
             {
                 Console.WriteLine("This is class_C");
             }
         }
 
-        public class Class_B : IClassB
+        public class ClassB : IClassB
         {
             private readonly IClassC _classC;
 
-            public Class_B(IClassC class_C) => _classC = class_C;
+            public ClassB(IClassC class_C) => _classC = class_C;
 
-            public void ActionB()
+            public void Action()
             {
                 Console.WriteLine("This is class_B");
-                _classC.ActionC();
+                _classC.Action();
             }
         }
 
-        public class Class_A
+        public class ClassA
         {
             private readonly IClassB _classB;
 
-            public Class_A(Class_B class_B) => _classB = class_B;
+            public ClassA(IClassB class_B) => _classB = class_B;
 
             public void Action()
             {
                 Console.WriteLine("This is class_A");
-                _classB.ActionB();
+                _classB.Action();
             }
         }
-        public static class InvertedDependency
+
+        public class ClassD
         {
-            //....
+            private ClassA _classA;
+            public ClassD(ClassA classA, string message)
+            {
+                _classA = classA;
+                Console.WriteLine("message " + message);
+            }
         }
     }
 }

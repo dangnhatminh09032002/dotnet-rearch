@@ -13,3 +13,6 @@ C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.pdb
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.genruntimeconfig.cache
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\ref\dependency_injection.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.csproj.CopyComplete
