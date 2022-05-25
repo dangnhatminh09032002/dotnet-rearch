@@ -28,3 +28,5 @@ D:\Code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\refint\ExtendsionMethod.
 D:\Code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.pdb
 D:\Code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.genruntimeconfig.cache
 D:\Code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ref\ExtendsionMethod.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\dotnet-rearch\ExtendsionMethod\obj\Debug\net6.0\ExtendsionMethod.csproj.CopyComplete

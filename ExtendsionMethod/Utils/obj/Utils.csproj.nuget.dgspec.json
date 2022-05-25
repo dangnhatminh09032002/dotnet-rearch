@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\ExtendsionMethod.csproj": {}
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\ExtendsionMethod.csproj": {
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\ExtendsionMethod.csproj",
-        "projectName": "ExtendsionMethod",
-        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\ExtendsionMethod.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\Utils.csproj",
+        "projectName": "DNM.Utils",
+        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\Utils.csproj",
         "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\obj\\",
+        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

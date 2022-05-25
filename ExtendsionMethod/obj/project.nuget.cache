@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6PbZ9w+9dMw/15mrjBU28oU3lVIBo0Q38ahupOhU+rZnRXzE2sB/ZTzTf1FGVLkpPrAeAMelehemOQsq0wqxLA==",
+  "dgSpecHash": "HZAXjJ2cNUeG1MvKcziCilPdpcS4oouEXtGiDDTaMouY05Ciu9s18opwz4lv0aFP8i3qOsw7I3UozxN4/iNlcw==",
   "success": true,
-  "projectFilePath": "D:\\Code\\dotnet-rearch\\ExtendsionMethod\\ExtendsionMethod.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\ExtendsionMethod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dangn\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
