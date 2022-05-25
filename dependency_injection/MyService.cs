@@ -5,9 +5,14 @@ namespace Minh.DependencyInjection.Services
 {
     public class MyService : IMyService
     {
-        public MyService()
+        public MyService(IOptions<MyServiceOptions> myServiceOptions)
         {
+            Console.WriteLine($"{myServiceOptions.Value.Name}");
+        }
+
+        public class MyServiceOptions
+        {
+            public string Name { get; set; }
         }
     }
-
 }

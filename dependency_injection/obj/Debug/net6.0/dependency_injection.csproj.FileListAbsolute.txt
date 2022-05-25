@@ -36,3 +36,12 @@ D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection
 D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\ref\dependency_injection.dll
 D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
