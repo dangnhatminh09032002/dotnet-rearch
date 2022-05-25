@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\Utils.csproj",
-      "projectName": "DNM.Utils",
-      "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\Utils.csproj",
+      "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\type_atrr.csproj",
+      "projectName": "type_atrr",
+      "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\type_atrr.csproj",
       "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\ExtendsionMethod\\Utils\\obj\\",
+      "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\type_atrr\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",

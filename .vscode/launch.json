@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/ExtendsionMethod/bin/Debug/net6.0/ExtendsionMethod.dll",
+            "program": "${workspaceFolder}/type_atrr/bin/Debug/net6.0/type_atrr.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ExtendsionMethod",
+            "cwd": "${workspaceFolder}/type_atrr",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "integratedTerminal",
+            "console": "internalConsole",
             "stopAtEntry": false
         },
         {
