@@ -34,3 +34,5 @@ D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\refint\dependency_in
 D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.pdb
 D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\dependency_injection.genruntimeconfig.cache
 D:\Code\dotnet-rearch\dependency_injection\obj\Debug\net6.0\ref\dependency_injection.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Code\dotnet-rearch\dependency_injection\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
