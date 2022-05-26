@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\CS34\\CS34.csproj",
+      "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\CS34.csproj",
       "projectName": "CS34",
-      "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\CS34\\CS34.csproj",
+      "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\CS34.csproj",
       "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\CS34\\obj\\",
+      "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
