@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\": {}
+    "C:\\Users\\dangn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\dotnet-rearch\\web\\web.csproj",
+      "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\web\\web.csproj",
       "projectName": "web",
-      "projectPath": "D:\\Code\\dotnet-rearch\\web\\web.csproj",
-      "packagesPath": "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\dotnet-rearch\\web\\obj\\",
+      "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\web\\web.csproj",
+      "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\dotnet-rearch\\web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DANGNHATMINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
