@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj": {}
+    "D:\\Code\\dotnet-rearch\\cs35\\cs35.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj": {
+    "D:\\Code\\dotnet-rearch\\cs35\\cs35.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj",
+        "projectUniqueName": "D:\\Code\\dotnet-rearch\\cs35\\cs35.csproj",
         "projectName": "cs35",
-        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj",
-        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\obj\\",
+        "projectPath": "D:\\Code\\dotnet-rearch\\cs35\\cs35.csproj",
+        "packagesPath": "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\dotnet-rearch\\cs35\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DANGNHATMINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

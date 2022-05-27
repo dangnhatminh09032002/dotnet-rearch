@@ -17,7 +17,7 @@ namespace Minh.DotnetRearch
             handler.CookieContainer = cookieContainer;
 
             // Setup http request
-            using HttpClient httpClient = new HttpClient();
+            using HttpClient httpClient = new HttpClient(handler);
             using HttpRequestMessage httpRequestMessage = new HttpRequestMessage();
             httpRequestMessage.Method = HttpMethod.Post;
             httpRequestMessage.RequestUri = uri;
