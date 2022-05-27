@@ -45,7 +45,7 @@ class Program
     }
     static async Task<byte[]> DownloadPageDataBytes(string url)
     {
-        using var httpClient = new HttpClient();
+        using HttpClient httpClient = new HttpClient();
         httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0");
 
         byte[] buffer = new byte[] { };
@@ -60,34 +60,24 @@ class Program
     static async Task DownloadStream(string url, string fileName)
     {
         HttpClient httpClient = new HttpClient();
+        httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0");
         string path = Path.GetFullPath(fileName); // Path to the file
         try
         {
             HttpResponseMessage httpResponseMessage = await httpClient.GetAsync(url);
             using Stream stream = await httpResponseMessage.Content.ReadAsStreamAsync();
-
             using FileStream fsWrite = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite);
             // Doan code ben duoi se save file theo tung EVERY_SIZE cho den khi full
             const int EVERY_SIZE = 1000; // save other 1000 byte
-            int current = 0;
-            int previous = 0;
             do
             {
-                previous = current;
-                current += EVERY_SIZE;
                 byte[] buffer = new byte[EVERY_SIZE];
-                int sizeByteCurrent = await stream.ReadAsync(buffer, previous, current); // 0 neu k con gi de doc
-                fsWrite.Write(buffer, previous, current);
+                int sizeByteCurrent = await stream.ReadAsync(buffer, 0, buffer.Length);
+                fsWrite.Write(buffer, 0, sizeByteCurrent);
                 if (sizeByteCurrent == 0) break;
             } while (true);
         }
         catch (Exception ex) { }
-    }
-    static async Task SaveByEachSize(int size, byte[] buffer, string fileName)
-    {
-        string path = Path.GetFullPath(fileName);
-        using FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite);
-        fs.Write(buffer, 0, buffer.Length);
     }
     static async Task SaveFileInHereWithBytes(byte[] buffer, string fileName)
     {
@@ -104,7 +94,6 @@ class Program
             Console.WriteLine($"{header.Key} : {header.Value}");
         }
     }
-
 }
 
 // var ping = new Ping();
