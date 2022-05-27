@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\CS34.csproj": {}
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\CS34.csproj": {
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\CS34.csproj",
-        "projectName": "CS34",
-        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\CS34.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj",
+        "projectName": "cs35",
+        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\cs35.csproj",
         "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\CS34\\obj\\",
+        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs35\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
