@@ -1,0 +1,15 @@
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.csproj.AssemblyReference.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.AssemblyInfoInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.AssemblyInfo.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.csproj.CoreCompileInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\bin\Debug\net6.0\cs35.exe
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\bin\Debug\net6.0\cs35.deps.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\bin\Debug\net6.0\cs35.runtimeconfig.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\bin\Debug\net6.0\cs35.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\bin\Debug\net6.0\cs35.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\refint\cs35.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\cs35.genruntimeconfig.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs35\obj\Debug\net6.0\ref\cs35.dll
