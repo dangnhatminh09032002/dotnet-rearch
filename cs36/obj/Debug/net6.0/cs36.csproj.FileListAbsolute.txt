@@ -13,3 +13,5 @@ D:\Code\dotnet-rearch\cs36\obj\Debug\net6.0\refint\cs36.dll
 D:\Code\dotnet-rearch\cs36\obj\Debug\net6.0\cs36.pdb
 D:\Code\dotnet-rearch\cs36\obj\Debug\net6.0\cs36.genruntimeconfig.cache
 D:\Code\dotnet-rearch\cs36\obj\Debug\net6.0\ref\cs36.dll
+D:\Code\dotnet-rearch\cs36\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Code\dotnet-rearch\cs36\obj\Debug\net6.0\cs36.csproj.CopyComplete

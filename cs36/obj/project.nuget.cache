@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jV1QX3mv2oSe0CtAfFxW7ULi9kOnfvKpeT99gyjWr010EXRmah65Td2TTS/OF1kxLif1p8WESevxwAZti9OkPA==",
+  "dgSpecHash": "uDDoa/GJFxn0j5U1YzKMENNhwwHU5T7T86wfQldwdqobzWLS3MgkOyTClHCq2EXBRu0dVNnv+/5zEB3nh5jp3Q==",
   "success": true,
   "projectFilePath": "D:\\Code\\dotnet-rearch\\cs36\\cs36.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
