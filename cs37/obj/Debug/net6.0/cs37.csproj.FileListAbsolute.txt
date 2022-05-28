@@ -13,3 +13,13 @@ D:\Code\dotnet-rearch\cs37\obj\Debug\net6.0\refint\cs37.dll
 D:\Code\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.pdb
 D:\Code\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.genruntimeconfig.cache
 D:\Code\dotnet-rearch\cs37\obj\Debug\net6.0\ref\cs37.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Npgsql.dll
+D:\Code\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.csproj.CopyComplete

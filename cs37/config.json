@@ -1,0 +1,9 @@
+{
+  "Database": {
+    "PostgreSQL": {
+      "ConnectString": {
+        "HangfireConnection": "Host=localhost;Username=postgres;Password=Nhtminh09032002@;Database=dotnet_rearch"
+      }
+    }
+  }
+}
