@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\dotnet-rearch\\cs35\\cs35.csproj",
-      "projectName": "cs35",
-      "projectPath": "D:\\Code\\dotnet-rearch\\cs35\\cs35.csproj",
+      "projectUniqueName": "D:\\Code\\dotnet-rearch\\cs36\\cs36.csproj",
+      "projectName": "cs36",
+      "projectPath": "D:\\Code\\dotnet-rearch\\cs36\\cs36.csproj",
       "packagesPath": "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\dotnet-rearch\\cs35\\obj\\",
+      "outputPath": "D:\\Code\\dotnet-rearch\\cs36\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DANGNHATMINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
