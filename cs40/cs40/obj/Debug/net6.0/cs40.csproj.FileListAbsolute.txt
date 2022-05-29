@@ -1,0 +1,15 @@
+D:\Code\dotnet-rearch\cs40\cs40\bin\Debug\net6.0\cs40.exe
+D:\Code\dotnet-rearch\cs40\cs40\bin\Debug\net6.0\cs40.deps.json
+D:\Code\dotnet-rearch\cs40\cs40\bin\Debug\net6.0\cs40.runtimeconfig.json
+D:\Code\dotnet-rearch\cs40\cs40\bin\Debug\net6.0\cs40.dll
+D:\Code\dotnet-rearch\cs40\cs40\bin\Debug\net6.0\cs40.pdb
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.csproj.AssemblyReference.cache
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.AssemblyInfoInputs.cache
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.AssemblyInfo.cs
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.csproj.CoreCompileInputs.cache
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.dll
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\refint\cs40.dll
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.pdb
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\cs40.genruntimeconfig.cache
+D:\Code\dotnet-rearch\cs40\cs40\obj\Debug\net6.0\ref\cs40.dll
