@@ -23,3 +23,9 @@ D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobb
 D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\Npgsql.dll
 D:\Code\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.csproj.CopyComplete
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
