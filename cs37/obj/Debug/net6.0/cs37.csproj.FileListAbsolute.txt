@@ -29,3 +29,34 @@ D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
 D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Code\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\cs37.exe
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\cs37.deps.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\cs37.runtimeconfig.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\cs37.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\cs37.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\Npgsql.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.csproj.AssemblyReference.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.AssemblyInfoInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.AssemblyInfo.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.csproj.CoreCompileInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.csproj.CopyComplete
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\refint\cs37.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\cs37.genruntimeconfig.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\cs37\obj\Debug\net6.0\ref\cs37.dll
