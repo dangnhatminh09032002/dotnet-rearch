@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {}
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {}
   },
   "projects": {
-    "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {
+    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
         "projectName": "cs40",
-        "projectPath": "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
-        "packagesPath": "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\dotnet-rearch\\cs40\\cs40\\obj\\",
+        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
+        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DANGNHATMINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -47,6 +71,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
