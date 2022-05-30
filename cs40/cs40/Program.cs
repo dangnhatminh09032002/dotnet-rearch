@@ -108,12 +108,29 @@ namespace Minh.Cs40
             dbcontext.SaveChanges();
         }
 
+        static async Task InsertProduct()
+        {
+            using MyDbContext dbcontext = new MyDbContext();
+
+            ProductEntity[] ps = new ProductEntity[]
+            {
+                new ProductEntity() { Name = "Iphone", Description = "Iphone moi", Price = 1000 },
+                new ProductEntity() { Name = "Samsung", Description = "Samsung moi", Price = 2000 }
+            };
+
+            dbcontext.product.AddRange(ps);
+            dbcontext.SaveChanges();
+        }
+
         public static async Task Main(string[] args)
         {
             //CreateDatabase();
-            RenamePersion(1, "Dang Nhat Minh");
+            //RenamePersion(1, "Dang Nhat Minh");
             //RemovePersion(1);
-            ReadPersion();
+            //ReadPersion();
+            ResetDatabase();
+            //InsertProduct();
+            //DropDatabase();
         }
     }
 }

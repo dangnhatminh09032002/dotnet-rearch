@@ -11,10 +11,12 @@ namespace Minh.Cs40.Models
             builder.AddConsole();
         });
         public DbSet<PersionEntity> persion { get; set; }
+        public DbSet<ProductEntity> product { get; set; }
+        public DbSet<CategoryEntity> categorie { get; set; }
 
         private const string _connectionString = @"
             Data Source=localhost,1433;
-            Initial Catalog=dotnet_rearch_v2;
+            Initial Catalog=dotnet_rearch;
             User ID=SA;
             Password=Nhtminh09032002";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
