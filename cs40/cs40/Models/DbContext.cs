@@ -12,7 +12,7 @@ namespace Minh.Cs40.Models
         });
         public DbSet<PersionEntity> persion { get; set; }
         public DbSet<ProductEntity> product { get; set; }
-        public DbSet<CategoryEntity> categorie { get; set; }
+        public DbSet<CategoryEntity> category { get; set; }
 
         private const string _connectionString = @"
             Data Source=localhost,1433;
@@ -24,6 +24,7 @@ namespace Minh.Cs40.Models
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseLoggerFactory(_loggerFactory);
             optionsBuilder.UseSqlServer(_connectionString);
+            optionsBuilder.UseLazyLoadingProxies(); // Tự động load các reference (các trường được sử dụng khóa phụ). Để dùng tính năng phải thêm virtual trước các Property cần tự động
         }
     }
 }

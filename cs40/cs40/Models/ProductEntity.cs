@@ -22,13 +22,12 @@ namespace Minh.Cs40.Models
         [Column("price")]
         public int Price { get; set; }
 
-        [ForeignKey("category_id")]
-        public string? CategoryId { get; set; }
+        public int category_id { get; set; }
 
-        [Column("category_id")]
         [ForeignKey("category_id")]
-        public CategoryEntity Category { get; set; } // -> FK tham chieu toi PK cua 
+        [Required]
+        public virtual CategoryEntity Category { get; set; } // -> FK tham chieu toi PK cua 
 
-        public void PrintInfo() => Console.WriteLine($"{Id} - {Name} - {Price}");
+        public void PrintInfo() => Console.WriteLine($"{Id} - {Name} - {Price} - {category_id}");
     }
 }

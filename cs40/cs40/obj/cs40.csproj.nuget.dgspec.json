@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {}
+    "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {
+    "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
+        "projectUniqueName": "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
         "projectName": "cs40",
-        "projectPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
-        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\OneDrive\\Máy tính\\MINH\\code\\MyCode\\dotnet-rearch\\cs40\\cs40\\obj\\",
+        "projectPath": "D:\\Code\\dotnet-rearch\\cs40\\cs40\\cs40.csproj",
+        "packagesPath": "C:\\Users\\DANGNHATMINH\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\dotnet-rearch\\cs40\\cs40\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DANGNHATMINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[6.0.5, )"
             },

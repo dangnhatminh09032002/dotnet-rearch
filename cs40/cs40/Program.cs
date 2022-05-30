@@ -39,26 +39,13 @@ namespace Minh.Cs40
         static async Task ResetDatabase()
         {
             using MyDbContext dbcontext = new MyDbContext();
-            dbcontext.Database.EnsureDeleted();
-            bool statusCreate = dbcontext.Database.EnsureCreated();
+            await dbcontext.Database.EnsureDeletedAsync();
+            bool statusCreate = await dbcontext.Database.EnsureCreatedAsync();
         }
 
         static async Task InsertPersion()
         {
             using MyDbContext dbcontext = new MyDbContext();
-
-            //PersionEntity persion1 = new PersionEntity();
-            //persion1.Name = "Dang Nhat Minh";
-            //persion1.Age = 21;
-
-            //PersionEntity persion2 = new PersionEntity();
-            //persion2.Name = "Nguyen Dao Nguyen Trinh";
-            //persion2.Age = 22;
-
-            //persionDbContext.Add(persion1);
-            //persionDbContext.Add(persion2);
-
-
             object[] obj = new object[]
             {
                 new PersionEntity() { Name = "Dang Nhat Minh", Age = 21},
@@ -114,12 +101,40 @@ namespace Minh.Cs40
 
             ProductEntity[] ps = new ProductEntity[]
             {
-                new ProductEntity() { Name = "Iphone", Description = "Iphone moi", Price = 1000 },
-                new ProductEntity() { Name = "Samsung", Description = "Samsung moi", Price = 2000 }
+                new ProductEntity() { Name = "Iphone cua tui", Description = "Iphone moi", Price = 1000, Category = dbcontext.category.First() },
+                new ProductEntity() { Name = "Samsung cu tui", Description = "Samsung moi", Price = 2000, Category = dbcontext.category.First() }
+            };
+            dbcontext.product.AddRange(ps);
+            await dbcontext.SaveChangesAsync();
+        }
+
+        static async Task ReadProduct() {
+            using MyDbContext dbContext = new MyDbContext();
+
+            ProductEntity[] products = dbContext.product.ToArray();
+            products.ToList().ForEach(product =>
+            {
+                Console.WriteLine(product.Category.Name); // Nếu có UseLazyLoadingProxies và thê virtual ở Category thì nó sẽ tự động Reference
+                //var e = dbContext.Entry(product);
+                //e.Reference(p => p.Category).Load();
+                //if (product.Category != null)
+                //{
+                //    Console.WriteLine(product.Category.Id + " - " + product.Category.Name);
+                //}
+            });
+        }
+
+        static async Task InsertCategory() {
+            using MyDbContext dbcontext = new MyDbContext();
+
+            CategoryEntity[] ps = new CategoryEntity[]
+            {
+                new CategoryEntity() { Name = "Samsung" },
+                new CategoryEntity() { Name = "Iphone" }
             };
 
-            dbcontext.product.AddRange(ps);
-            dbcontext.SaveChanges();
+            dbcontext.category.AddRange(ps);
+            await dbcontext.SaveChangesAsync();
         }
 
         public static async Task Main(string[] args)
@@ -128,8 +143,10 @@ namespace Minh.Cs40
             //RenamePersion(1, "Dang Nhat Minh");
             //RemovePersion(1);
             //ReadPersion();
-            ResetDatabase();
-            //InsertProduct();
+            await ResetDatabase();
+            await InsertCategory();
+            await InsertProduct();
+            await ReadProduct();
             //DropDatabase();
         }
     }
