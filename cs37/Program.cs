@@ -25,13 +25,19 @@ namespace Minh.Cs37
             using SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             //Query the database
-            using SqlCommand command = new SqlCommand("SELECT TOP 20 * FROM persion", connection);
+            using SqlCommand command = new SqlCommand("SELECT * FROM persion WHERE id < @ID", connection);
+            // SqlParameter idParameter = new SqlParameter("@ID", "10");
+            // idParameter.Value = 12;
+            // command.Parameters.Add(idParameter);
+
+            command.Parameters.AddWithValue("@ID", 10);
 
             SqlDataReader reader = command.ExecuteReader();
-            while (reader.Read())
-            {
-                Console.WriteLine($"----------\nid: {reader["id"], 3}\nname: {reader["name"],10}\nage: {reader["age"],3}");
-            }
+            if (reader.HasRows) //Check xem có dữ liệu trả về không
+                while (reader.Read())
+                {
+                    Console.WriteLine($"----------\nid: {reader["id"],3}\nname: {reader["name"],10}\nage: {reader["age"],3}");
+                }
 
             connection.Close();
         }
