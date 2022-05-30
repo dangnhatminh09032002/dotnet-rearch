@@ -4,6 +4,8 @@ using Minh.Cs40.Models;
 using System.Linq;
 using Newtonsoft.Json;
 
+//InvertProperty dùng để nói cho khóa ngoại con biết là cần trỏ chính xác đến khóa nào (nếu table đó có nhiều khóa ngoại, nếu k sẽ bị lỗi)
+
 namespace Minh.Cs40
 {
     public class Program
