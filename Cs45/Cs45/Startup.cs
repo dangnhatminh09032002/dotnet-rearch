@@ -1,3 +1,4 @@
+﻿using Cs45.common.middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -16,25 +17,34 @@ namespace Cs45
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ShowPathMiddleware, ShowPathMiddleware>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
 
-            app.UseRouting();
+            //app.UseMiddleware<ShowPathMiddleware>();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
+            ////app.UseMiddleware<ValidateMiddleware>();
+            //app.ValidateMiddleware(); // Đây là extension method
+
+            app.Map("/user", (app_1) => {
+                app_1.UseRouting();
+                app_1.UseEndpoints(endpoint =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    endpoint.Map("/minh", async (context) => {
+                        await context.Response.WriteAsync("<h1>User -> minh</h1>");
+                    });
                 });
             });
+
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Hello World");
+            });
+
         }
     }
 }
