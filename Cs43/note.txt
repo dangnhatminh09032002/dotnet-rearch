@@ -1,0 +1,30 @@
+để dùng migrations cần phải có Microsoft.EntityFrameworkCore.Design
+
+dotnet ef migrations add [Migration Name]
+    ex: dotnet ef migrations add CS43
+    nếu tạo thêm một lần nữa mà k chỉnh sủa gì thì Up và Down sẽ trống
+
+dotnet ef migrations list
+    check xem có bao nhiêu migrations
+        pending la chưa cập nhật lên database
+
+dotnet ef migrations remove
+    xóa 1 migrations gần nhất
+
+dotnet ef database update [Migration Name]
+    chạy migrations để tạo dữ liệu trong database
+
+dotnet ef migrations script
+    hiểu thị các câu lệnh mà migrations đã thực hiện (tất cả migrations)
+dotnet ef migrations script [Migration Name 1] [Migration Name 2]
+dotnet ef migrations script -o [filename.sql | ...]
+    lưu các câu lệnh ra file
+
+dotnet ef database drop -f
+    Xoa tao bộ database được khởi tạo bởi migration
+
+dotnet ef dbcontext scaffold -o [fileFolder] -d [connectstring] "Microsoft.EntityFrameworkCore.SqlClient"
+    tạo các model dựa trên database
+    -o là nơi lưu các model => ex Models
+    -d chuỗi kết nối => ex "Data Source=localhost,1433;Initial Catalog=dotnet_rearch;User ID=SA;Password="
+    cuối cùng là thư viện sử dụng
