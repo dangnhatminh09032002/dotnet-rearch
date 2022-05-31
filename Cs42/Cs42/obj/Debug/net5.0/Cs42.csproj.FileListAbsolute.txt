@@ -1,0 +1,16 @@
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\bin\Debug\net5.0\Cs42.exe
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\bin\Debug\net5.0\Cs42.deps.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\bin\Debug\net5.0\Cs42.runtimeconfig.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\bin\Debug\net5.0\Cs42.runtimeconfig.dev.json
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\bin\Debug\net5.0\Cs42.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\bin\Debug\net5.0\Cs42.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.csproj.AssemblyReference.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.AssemblyInfoInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.AssemblyInfo.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.csproj.CoreCompileInputs.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\refint\Cs42.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.pdb
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\Cs42.genruntimeconfig.cache
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Cs42\Cs42\obj\Debug\net5.0\ref\Cs42.dll
