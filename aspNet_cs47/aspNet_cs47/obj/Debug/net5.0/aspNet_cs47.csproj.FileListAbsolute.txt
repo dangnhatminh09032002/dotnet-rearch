@@ -20,3 +20,5 @@ C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\aspNet_cs47\as
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\aspNet_cs47\aspNet_cs47\obj\Debug\net5.0\aspNet_cs47.pdb
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\aspNet_cs47\aspNet_cs47\obj\Debug\net5.0\aspNet_cs47.genruntimeconfig.cache
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\aspNet_cs47\aspNet_cs47\obj\Debug\net5.0\ref\aspNet_cs47.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\aspNet_cs47\aspNet_cs47\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\aspNet_cs47\aspNet_cs47\obj\Debug\net5.0\aspNet_cs47.csproj.CopyComplete
