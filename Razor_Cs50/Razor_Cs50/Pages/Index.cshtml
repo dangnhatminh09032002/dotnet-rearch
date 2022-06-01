@@ -1,0 +1,24 @@
+﻿@*Để Razor page đọc được cần có @page*@
+@page
+@model Razor_Cs50.Pages.IndexModel
+@{
+}
+<h1>This is Index Page</h1>
+<br>
+<h2>@System.DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm:ss")</h2>
+@{
+    int x = 12;
+    int y = 11;
+
+    int multiplication = 12 * 11;
+
+    //nó sẽ tự động xuất ra đoạn chỗi này
+    <p>X + Y = @(x + y)</p>
+    <p>X * Y = @multiplication</p>;
+}
+<ul>
+@for(int i = 0; i < x; i++) {
+
+        <li>Idx: @i</li>
+}
+</ul>
