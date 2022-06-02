@@ -1,0 +1,14 @@
+﻿@*
+    // partialview se k co @page
+    // Để load partial này ta dùng
+    - <partial name="_CardPartialView">
+    - @await Html.PartialAsync("_CardPartialView");
+
+    - Để truy cập đến các thuộc tính truyền từ bên ngoài vào ta dùng @Model
+*@
+@using System.Linq
+<div>
+    <h2>Card</h2>
+    <h4>Title: </h4>
+    <p>Description: </p>
+</div>
