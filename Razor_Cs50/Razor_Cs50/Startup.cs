@@ -26,7 +26,8 @@ namespace Razor_Cs50
                 //options.Conventions.AddPageRoute("/Index", "/abc"); // Nếu nhập /abc thì nó sẽ vào Index.html, nhâp index nó vẫn vao index
             });
 
-            services.Configure<RouteOptions>(options => {
+            services.Configure<RouteOptions>(options =>
+            {
                 options.LowercaseUrls = true;
                 // tự động chuyển thành chữ thường
                 //ví dụ khi dùng taghelper asp-page thì nó sẽ để nguyên như thư mục -> thư mục có thể chữ hoa nên khi dùng options.LowercaseUrls thì xem lại trên google dev thì nó đã được đổi thành lower
@@ -48,7 +49,7 @@ namespace Razor_Cs50
                 endpoints.MapRazorPages(); // Nó sẽ tìm file cshtml trong Pages (đây là folder mặc định)
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    context.Response.Redirect("/index");
                 });
             });
         }

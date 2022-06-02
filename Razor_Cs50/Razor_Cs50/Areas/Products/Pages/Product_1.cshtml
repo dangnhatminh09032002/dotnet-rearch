@@ -1,0 +1,8 @@
+﻿@page
+@model Razor_Cs50.Areas.Products.Pages.Product_1Model
+@{
+    object[] products = { new { Name = "Iphone", Price = "25 trieu" }};
+    ViewData["products"] = products;
+}
+<h1>This is Product 1</h1>
+<h2>Product: @(products.ToArray()?[0].ToString()) </h2>

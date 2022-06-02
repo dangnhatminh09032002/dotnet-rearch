@@ -68,3 +68,14 @@ D:\Code\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Home.cs
 D:\Code\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Users\Minh.cshtml.g.cs
 D:\Code\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Users\Chi.cshtml.g.cs
 D:\Code\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Users\Index.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Home.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Users\Chi.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Users\Index.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Users\Minh.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Areas\Products\Pages\Index.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Areas\Products\Pages\Product_1.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Areas\Products\Pages\Product_2.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Areas\Categorys\Pages\Index.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\About.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\Shared\_MyLayout.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\Razor_Cs50\Razor_Cs50\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs

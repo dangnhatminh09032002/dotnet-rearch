@@ -1,0 +1,16 @@
+﻿@*Để các trang web trong areas có thể hoạt động thì mỗi thư mục ví dụ như Products phải có thư mục Pages*@
+@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Razor_Cs50.Areas.Products.Pages.IndexModel
+@{
+}
+<h1>This is Product page</h1>
+<h2>@this.title</h2>
+<a asp-page="Product_1" asp-area="Products">Product 1</a>
+<br />
+<a asp-page="Product_2" asp-area="Products">Product 2</a>
+
+@functions{
+    // Có thể truy cập ở bất kỳ đâu trong scope này
+    string title { set; get; } = "This is Product page";
+}

@@ -1,0 +1,10 @@
+﻿@page
+@model Razor_Cs50.Pages.AboutModel
+@{
+    //Layout có thể nhận được phần ViewData này
+    ViewData["Title"] = "About page";
+    //Chỉ ra layout sẽ dùng, nó sẽ tự động nạp phần nội dùng vào @RenderBody()
+    //Nếu dùng _ để đặt tên file thì razor sẽ k dùng file đấy làm endpoint nghĩa là sẽ k có page MyLayout
+    Layout = "_MyLayout";
+}
+<h2>This is About Page</h2>

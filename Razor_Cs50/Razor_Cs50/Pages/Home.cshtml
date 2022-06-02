@@ -1,4 +1,4 @@
-﻿@page "/this-is-home/{index}/{count:int}"
+﻿@page "/home-page/{index}/{count:int}"
 @*
     Nếu để mặc định @page thì nó sẽ lấy tên của file làm path
     ex: file là Home.cshtml -> home, Home, HOMe đều sẽ vào được (chú ý k có ghi .html hay bây kì thứ gì)
@@ -6,8 +6,11 @@
     Để chỉnh lại mặc định trên ta có thể làm như sau
     @page "path"
 *@
+@{
+    object index = this.Request.RouteValues["index"] ?? 0;
+}
 @model Razor_Cs50.Pages.HomeModel
-<h1>This is Home Page</h1>
+<h1>This is @index Home Page</h1>
 @{
     int count = Int32.Parse(this.Request.RouteValues["count"].ToString());
     <h2>Count @count</h2>

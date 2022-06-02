@@ -1,0 +1,24 @@
+﻿@page
+@model Razor_Cs50.Areas.Categorys.Pages.IndexModel
+@{
+    Razor_Cs50.Areas.Categorys.Pages.Category[] categorys = Model.CategoryData;
+    string border = "border: 1px solid black";
+}
+<h1>This Category Page</h1>
+
+<table>
+   <tr>
+    <th style="@border">Id</th>
+    <th style="@border">Name</th>
+    <th style="@border">Description</th>
+  </tr>
+     @for (int i = 0; i < categorys.Length; i++)
+    {
+        Razor_Cs50.Areas.Categorys.Pages.Category category = categorys[i];
+        <tr>
+            <td style="@border">@category.Id</td>
+            <td style="@border">@category.Name</td>
+            <td style="@border">@category.Description</td>
+        </tr>
+    }
+</table>
