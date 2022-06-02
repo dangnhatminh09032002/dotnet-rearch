@@ -44,7 +44,14 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
+    @*
+        Để dùng được tính năng section này thì tại mỗi page có dùng layout này ta thêm
+        @section NameSection {
+            //Code c#, html, ...
+        }
+        khi đó phần này sẽ được ghi đè vào RenderSectionAsync bên dưới
+        tính năng này được áp dụng khi muốn làm các layout con custom
+    *@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
