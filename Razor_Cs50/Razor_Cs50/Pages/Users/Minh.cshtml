@@ -1,0 +1,19 @@
+﻿@page
+@*Để vào page này ta cần truyền đường dẫn /Users/minh*@
+@model Razor_Cs50.Pages.Users.MinhModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+}
+<h1>This is Users/Minh page</h1>
+<h2>Dang Nhat Minh</h2>
+<h2>20</h2>
+
+@*Nếu không dùng taghelper thì phải điền chính xác địa chỉ -> http://localhost/chi *@
+<a href="/chi">Redirect to Chi</a>
+
+@*Cách dùng khác tự động hơn tránh trường hợp thay đổi path
+
+   Chỉ cần nhâp tên file
+   Và 2 file phải cùng một folder
+*@
+<a asp-page="Chi">Redirect to Chi</a>
