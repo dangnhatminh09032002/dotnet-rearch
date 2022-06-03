@@ -35,6 +35,8 @@ namespace razor_page_cs51.Pages.Shared.Components.CategoryComponentView
         public IViewComponentResult Invoke()
         {
             return View(); // Mặc định nó sẽ thi hành file Default.cshtml
+            //Để truyền model vào ta làm như sau View<string>("Xin Chao Minh"), đoạn code này truyền vào một chuỗi string
+            //Để dùng model này bên component ta khai báo như sau -> @model string ->  @Model để sử dụng value
         }
     }
 }

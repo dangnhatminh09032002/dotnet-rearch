@@ -1,0 +1,8 @@
+﻿@page
+@using razor_page_cs51.Pages.Shared.Components.MessageComponentView
+@model razor_page_cs51.Areas.Notify.Pages.IndexModel
+@{
+    MessageComponentView.MessagePage messagePage = new MessageComponentView.MessagePage();
+}
+<h1>This is Noitify Page</h1>
+@await Component.InvokeAsync("MessageComponentView", messagePage)

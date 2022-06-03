@@ -42,3 +42,5 @@ C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\razor_page_cs5
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\razor_page_cs51\razor_page_cs51\obj\Debug\net5.0\Razor\Pages\Shared\_ShowUserPartialView.cshtml.g.cs
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\razor_page_cs51\razor_page_cs51\obj\Debug\net5.0\Razor\Areas\Categorys\Pages\Index.cshtml.g.cs
 C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\razor_page_cs51\razor_page_cs51\obj\Debug\net5.0\Razor\Pages\Shared\Components\CategoryComponentView\Default.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\razor_page_cs51\razor_page_cs51\obj\Debug\net5.0\Razor\Areas\Notify\Pages\Index.cshtml.g.cs
+C:\Users\dangn\OneDrive\Máy tính\MINH\code\MyCode\dotnet-rearch\razor_page_cs51\razor_page_cs51\obj\Debug\net5.0\Razor\Pages\Shared\Components\MessageComponentView\Default.cshtml.g.cs
