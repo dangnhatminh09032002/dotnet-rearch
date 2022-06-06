@@ -1,10 +1,35 @@
 ﻿@page
+@addTagHelper *, taghelperexample
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
-
+@*@removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper ,Microsoft.AspNetCore.Mvc.TagHelpers*@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <!a asp-page="Error" asp-route-id="2"></!a> @*nếu có dấu ! thì nó sẽ k bị tác động bởi thẻ tương ứng, nghĩa là đó sẽ là html thuần*@
+    <form>
+        <label asp-for="UserName"></label> @*để dùng được định dạng này ta cần phải thêm displayname ở model*@
+        <input asp-for="UserName" />
+        @*
+        <hr />
+        @Html.Label("UserName")
+        @Html.TextBox("UserName")
+        *@
+    </form>
+</div>
+@functions {
+    List<string> lists = new List<string>()
+    {
+        "Dang nhat minh",
+        "Minh nhat dang",
+        "Nhat minh dang"
+    };
+}
+
+<div>
+    <mytaghelper list-title="Hello" list-items="@lists"></mytaghelper>
 </div>
